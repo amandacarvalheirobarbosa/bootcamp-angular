@@ -9,3 +9,6 @@ Aulas:
 ### Instalação
 Após fazer o clone, é necessário fazer instalação:
 `npm install`
+
+
+`npm install -g @angular/cli`

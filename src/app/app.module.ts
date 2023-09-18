@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { IndexModule } from './pages/index/index.module';
 import { PortifolioModule } from './pages/portifolio/portifolio.module';
 import { MenuComponent } from './shared/menu/menu.component';
+import { CardRoutesComponent } from './pages/portifolio/card-routes/card-routes.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    CardRoutesComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
